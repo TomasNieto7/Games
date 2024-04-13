@@ -1,0 +1,48 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    place-items: center;
+    overflow: hidden;
+}
+
+header {
+    height: 15vh;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#game .cuadro {
+    height: 90px;
+    width: 90px;
+    font-size: 3rem;
+    display: grid;
+    place-items: center;
+    border: 1px solid purple;
+    float: left;
+}
+
+#game {
+    width: 276px;
+    text-align: center;
+}
+
+#results {
+    position: relative;
+    top: 10px;
+    height: 1rem;
+}
+
+footer {
+    height: 10vh;
+    width: 100%;
+}
