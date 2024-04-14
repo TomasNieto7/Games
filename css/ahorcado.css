@@ -1,0 +1,47 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+#letras 
+{
+    display: flex;
+    margin: 1em;
+}
+.letra
+{
+    background-color: aqua;
+    height: 100px;
+    width: 5em;
+    border: 1px solid purple;
+    text-align: center;
+    font-size: x-large;
+    color: black;
+
+}
+#figura
+{
+    width: 23em;
+    display: flex;
+    background-color: blueviolet;
+    height: 40em;
+    margin: 1em;
+}
+main
+{
+    height: 50em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer
+{
+    text-align: center;
+}
